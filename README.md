@@ -4,6 +4,12 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 # AST 프로젝트
 ### 자동 (AST : Awake (항상 깨어있는), Auto (자동화된)) 주식 (Stock) 매매 (Trade)
 
+# 멤버
+### 윤기범
+### 역할 : 기획, Devops, Batch 개발
+### 문윤지
+### 역할 : API 개발
+
 ---
 ### 전체 구성도
 <img src="https://github.com/DevSpaceHub/AST/assets/66311276/64b326e7-3063-4ec7-98fd-86453ea70d61" width="310" height="315"/>
