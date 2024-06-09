@@ -24,3 +24,12 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 - DB : MySQL 8.0
 - Application : Spring Boot 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
 - Batch : Spring Batch 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
+
+### Admin
+https://ast-admin.selectfromuser.com
+- 주문관리
+   1. 주문
+   2. 예약매수
+- 토큰관리
+- 종목관리
+
