@@ -22,4 +22,5 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 ### 중심 기술
 - Cloud : GCP (인스턴스 OS : Debian GNU/Linux 11)
 - DB : MySQL 8.0
-- Application : Spring Boot 3.2, JPA, WebClient, Java 17, Gradle
+- Application : Spring Boot 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
+- Batch : Spring Batch 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
