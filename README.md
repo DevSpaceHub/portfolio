@@ -26,7 +26,7 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 - Batch : Spring Batch 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
 
 ### ERD
-<img src="https://github.com/DevSpaceHub/portfolio/blob/main/AST%20DB%20ERD.png" width="1300" height="1200"/>
+<img src="https://github.com/DevSpaceHub/portfolio/blob/main/AST%20DB%20ERD.png" width="1500" height="1200"/>
 
 ### AST-API
 
