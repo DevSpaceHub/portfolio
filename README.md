@@ -16,7 +16,14 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 
 ### 중심 기능
 - 매수/매도 알고리즘 로직에 따른 주문 처리
-- 한국투자증권 OpenAPI (KIS Developer OpenApi) 활용 : RESTful API, Web Socket
+- KIS Developer OpenApi 활용 : RESTful API, Web Socket
+- 중심 기술
+  - 국내 시장 및 해외(나스닥, 뉴욕) 시장에 한하여 서비스. (해외는 예정)
+  - 국내 시장 및 해외 시장은 장 시간이 다르다.
+  - 특정 지표에 따라 매수/매도 거래 진행
+  - 예약 매수 기능 제공
+  - 금일 주문 및 체결된 종목에 대해 디스코드 메시지 발송
+  - 주식 매매 관련 작업/정보는 KIS OpenApi를 이용
 
 ### 중심 기술
 - Cloud : GCP (인스턴스 OS : Debian GNU/Linux 11)
@@ -28,7 +35,7 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
 <img src="https://github.com/DevSpaceHub/portfolio/blob/main/AST%20DB%20ERD.png" width="2000" height="600"/>
 
 ### AST-API
-제공하는 거래소 : 한국, NASDAQ, NESD
+제공하는 거래소 : 한국, 해외(NASDAQ, NESD)
 제공 기능 :
 1. 매수/매도 주문 - 기준 지표에 부합하는 종목에 대해 주문한다. (분할 매수 기능 O)
 2. 알림 기능 - 발생하는 주요한 이벤트에 대해 디스코드 알림 메세지를 발송한다. (주문 결과, 체결 결과)
