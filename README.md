@@ -25,7 +25,7 @@ DevSpaceHub에서 진행되는 프로젝트들에 대한 포트폴리오 설명 
   - 금일 주문 및 체결된 종목에 대해 디스코드 메시지 발송
   - 주식 매매 관련 작업/정보는 KIS OpenApi를 이용
 
-### 중심 기술
+### 기술 스택
 - Cloud : GCP (인스턴스 OS : Debian GNU/Linux 11)
 - DB : MySQL 8.0
 - Application : Spring Boot 3.2.0, JPA, WebClient, Java 17, Gradle 8.5
